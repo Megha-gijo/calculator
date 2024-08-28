@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+h1{
+    color: white;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:white;
+}
+
+.container-fluid{
+    position: relative;
+    max-width: 300px;
+    
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: rgb(7, 57, 68);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.display{
+    height: 80px;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.button{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+button{
+    background-color: blanchedalmond;
+}
+
+button:hover{
+    background-color: skyblue;
+}
